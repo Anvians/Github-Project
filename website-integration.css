@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.background-card {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg');
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.card-content {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-heading {
+    font-size: 60px;
+}
+
+.card-paragraph {
+    font-size: 25px;
+}
+
+.card-button {
+    background-color: skyblue;
+    border-radius: 10px;
+    border-width: 0px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+
+
+}
+
+.background-image {
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg);
+    background-size: cover;
+
+
+}
+
+.main-heading {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30PX;
+    text-align: center;
+    color: blueviolet;
+    padding: 30px;
+
+}
+
+.card-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.heading {
+    font-family: roboto;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.image-size {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 5px;
+}
+
+.single-paragraph {
+    font-size: 15px;
+    color: #6c6b70;
+}
+
+.background-image {
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg);
+    background-size: cover;
+
+}
+
+.main-heading {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30PX;
+    text-align: center;
+    color: blueviolet;
+    padding: 30px;
+
+}
+
+.card-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+
+
+
+.image-size {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 5px;
+}
+
+.single-paragraph {
+    font-size: 15px;
+    color: #6c6b70;
+
+}
+
+.temple {
+    padding: 15px;
+}
