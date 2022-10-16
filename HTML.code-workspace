@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../HTML"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML",
+		"files.associations": {
+			"iostream": "cpp"
+		},
+		"editor.mouseWheelZoom": true
+	}
+}
