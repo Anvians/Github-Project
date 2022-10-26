@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="book-flat.css">
+</head>
+
+<body>
+    <div id="section-home-page">
+        <div class="home-main-page d-flex flex-column justify-content-end">
+            <div class="home-bottom-page">
+                <h1 class="home-heading"> Sunrise Avanue</h1>
+                <p class="home-paragraph">Move to what move you</p>
+                <button class="home-button" onclick="display('section-second-page')">Book Flat</button>
+
+            </div>
+        </div>
+    </div>
+    <div id="section-second-page">
+        <div class=" second-page">
+            <h1 class="second-page-main-heading">Sunrise Avanue</h1>
+            <div class=" second-page-container d-flex flex-row" onclick="display('section-third-a-page')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png"
+                    class="image-second-page" />
+                <div class="second-page-combine">
+                    <h1 class="second-heading">3BHK Flat</h1>
+                    <p class="second-paragraph"> this is fully furnisished house eith handmade furniture
+                        including a luxuriy en-suite facility.And its price is also
+                        reasonable so come and take your full enjoyment.</p>
+                </div>
+            </div>
+            <div class=" second-page-container d-flex flex-row" onclick="display('section-third-b-page')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png"
+                    class="image-second-page" />
+                <div class="second-page-combine">
+                    <h1 class="second-heading">3BHK Flat</h1>
+                    <p class="second-paragraph"> this is fully furnisished house eith handmade furniture
+                        including a luxuriy en-suite facility.And its price is also
+                        reasonable so come and take your full enjoyment.</p>
+                </div>
+            </div>
+            <div class=" second-page-container d-flex flex-row" onclick="display('section-third-c-page')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png"
+                    class="image-second-page" />
+                <div class="second-page-combine">
+                    <h1 class="second-heading">3BHK Flat</h1>
+                    <p class="second-paragraph"> this is fully furnisished house eith handmade furniture
+                        including a luxuriy en-suite facility.And its price is also
+                        reasonable so come and take your full enjoyment.</p>
+                </div>
+            </div>
+            <div class="second-button-back">
+                <button class="home-button" onclick="display('section-home-page')"> Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section-third-a-page">
+        <div class="third-page d-flex flex-column justify-content-end">
+            <div class="third-page-container ">
+                <h1 class="third-page-heading">Rs 3000/-</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png"
+                        class="location-logo" />
+                    <div>
+                        <p class="third-page-paragraph"> D/N 5-2, Food Street, Indore</p>
+                    </div>
+                </div>
+                <hr class="horizontal-line">
+                <h1 class="third-page-heading">Description</h1>
+                <p class="third-page-paragraph"> this is fully furnisished house eith handmade furniture
+                    including a luxuriy en-suite facility.And its price is also
+                    reasonable so come and take your full enjoyment.</p>
+                <div>
+                    <button class="home-button" onclick="display('section-home-page')">Confirm</button>
+                    <button class="home-button" onclick="display('section-second-page')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section-third-b-page">
+        <div class="third-page d-flex flex-column justify-content-end">
+            <div class="third-page-container ">
+                <h1 class="third-page-heading">Rs 3000/-</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png"
+                        class="location-logo" />
+                    <div>
+                        <p class="third-page-paragraph"> D/N 5-2, Food Street, Indore</p>
+                    </div>
+                </div>
+                <hr class="horizontal-line">
+                <h1 class="third-page-heading">Description</h1>
+                <p class="third-page-paragraph"> this is fully furnisished house eith handmade furniture
+                    including a luxuriy en-suite facility.And its price is also
+                    reasonable so come and take your full enjoyment.</p>
+                <div>
+                    <button class="home-button" onclick="display('section-home-page')">Confirm</button>
+                    <button class="home-button" onclick="display('section-second-page')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section-third-c-page">
+        <div class="third-page d-flex flex-column justify-content-end">
+            <div class="third-page-container ">
+                <h1 class="third-page-heading">Rs 3000/-</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png"
+                        class="location-logo" />
+                    <div>
+                        <p class="third-page-paragraph"> D/N 5-2, Food Street, Indore</p>
+                    </div>
+                </div>
+                <hr class="horizontal-line">
+                <h1 class="third-page-heading">Description</h1>
+                <p class="third-page-paragraph"> this is fully furnisished house eith handmade furniture
+                    including a luxuriy en-suite facility.And its price is also
+                    reasonable so come and take your full enjoyment.</p>
+                <div>
+                    <button class="home-button" onclick="display('section-home-page')">Confirm</button>
+                    <button class="home-button" onclick="display('section-second-page')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript"
+        src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

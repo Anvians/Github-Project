@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.home-main-page {
+    background-image: url('https://assets.ccbp.in/frontend/static-website/flats-list-bg.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.home-bottom-page {
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 30px;
+    height: 40vh;
+    text-align: center;
+}
+
+.home-heading {
+    color: #f19116;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Bree Serif;
+}
+
+.home-paragraph {
+    font-size: 20px;
+    font-family: Bree Serif;
+
+}
+
+.home-button {
+    background-color: #f19116;
+    font-size: 15px;
+    border-radius: 10px;
+    color: #ffffff;
+    border-width: 0px;
+    height: 35px;
+    width: 80px;
+}
+
+.image-second-page {
+    height: 150px;
+    width: 80px;
+
+
+}
+
+.second-heading {
+    color: #0f0e46;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Bree Serif;
+}
+
+.second-paragraph {
+    font-size: 13px;
+    font-family: Bree Serif;
+}
+
+.second-page {
+    background-color: #222222;
+    background-size: cover;
+    padding: 10px;
+}
+
+.second-page-container {
+    background-color: #ffffff;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.second-page-main-heading {
+    color: #f19116;
+    font-size: 30px;
+}
+
+.second-page-combine {
+    padding: 10px;
+}
+
+.second-button-back {
+    padding: 25px;
+}
+
+.location-logo {
+    height: 30px;
+    width: 30px;
+}
+
+.third-page {
+    background-image: url('https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png');
+
+    height: 100vh;
+
+
+}
+
+.third-page-container {
+    background-color: #222222;
+    background-size: cover;
+    padding: 15px;
+}
+
+.third-page-heading {
+    color: #f19116;
+    font-size: 30px;
+}
+
+.third-page-paragraph {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.horizontal-line {
+    color: #ffffff;
+}
