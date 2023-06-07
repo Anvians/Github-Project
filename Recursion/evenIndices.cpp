@@ -1,22 +1,27 @@
 #include<iostream>
 using namespace std;
-int fun(int n)
+int A[10];
+int j;
+int fun(int A[j])
 {
-    int star = 0;
-    if (n<=0)
-    {
-        return 0;
-    }
-    else{
-        return fun(n-1);
-        
-    }
+   
+    j = j%2==0;
+    cout<<A[j];
+    return fun(j-1);
+
 }
 int main()
 {
-    int n;
-    cout<<"Enter the no:";
+    int n,i;
+    cout<<"Please Enter the Number:";
     cin>>n;
-    fun(n);
+    int p;
+    while (i<n)
+    {
+        cout<<"Enter digit:";
+        cin>>p;
+        cout<<fun(p);
+    }
+
 return 0;
 }
